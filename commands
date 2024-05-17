@@ -1,0 +1,7 @@
+build images
+
+docker build -t angular:latest .
+
+start container
+
+docker run -d -p 4201:4200 imagename/imageid:latest
